@@ -13,7 +13,7 @@ region_df=pd.read_csv('noc_regions.csv')
 
 df= preprocessor.preprocess(df,region_df)
 
-st.sidebar.title("Olaympics Analysis")
+st.sidebar.title("Olympics Data Analysis")
 st.sidebar.image('https://cdn.wallpapersafari.com/0/72/S307o5.jpg')
 user_menu=st.sidebar.radio(
     'Select an Option',
